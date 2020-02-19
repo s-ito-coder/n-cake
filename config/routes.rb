@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'items/index'
+  get 'homes/index'
+  get 'cart_items/index'
 	resources :end_users
 	resources :orders
 	resources :products
